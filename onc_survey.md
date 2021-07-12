@@ -1,6 +1,6 @@
 ## Response to ONC Survey on 2030 Interoperability Goals
 
- [ONC feedback instructions](https://www.healthit.gov/topic/interoperability/health-interoperability-outcomes-2030)
+ONC is [soliciting input](https://www.healthit.gov/topic/interoperability/health-interoperability-outcomes-2030) for its Health Interoperability Outcomes 2030 initiative (more information [here](https://www.healthit.gov/buzz-blog/interoperability/health-interoperability-outcomes-2030)). The question posed by the ONC survey was shared on the API mailing list, and responses from the API membership are summarized here. API encourages the pathology informatics community to submit responses to the survey. Everyone should feel free to use the list below as a source of ideas, or even to submit items verbatim.
   
 ## List of suggested goals/outcomes:  
 ### Because of interoperability, before/by 2030 ...   
