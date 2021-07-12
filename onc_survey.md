@@ -1,9 +1,9 @@
 ## Response to ONC Survey on 2030 Interoperability Goals
 
  [ONC feedback instructions](https://www.healthit.gov/topic/interoperability/health-interoperability-outcomes-2030)
-
-##List of suggested goals/outcomes:  
-###Because of interoperability, before/by 2030 ...   
+  
+## List of suggested goals/outcomes:  
+### Because of interoperability, before/by 2030 ...   
 * … healthcare providers will be able to order a laboratory test from any laboratory using the same test name.
 * … pathologists will guide therapeutic management choices same day, not a day or weekend later.
 * … there's a robust marketplace of medical software applications, breaking the Epic/Cerner oligopoly, so that clinicians and their institutions can choose from a wide range of highly usable apps that use patient-derived data to make it easier and more efficient to care for patients in high quality ways.
