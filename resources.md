@@ -1,6 +1,6 @@
 # Resources for technical standards, systems development, and interoperability
 
-## Secure system and software development
+This resource serves as an entry point to topics related to standards and interoperability relevant to Pathology and Laboratory Medicine. It is not intended to be comprehensive.
 
 ## Technical standards
 
@@ -9,7 +9,23 @@
 ### HL7 and FHIR
 ### DICOM
 
-## Interoperability
-### Organizations
+## Organizations
 - ONC
-### Vendors and products
+## Vendors and products
+
+## Secure system and software development
+
+## Maintaining this document
+
+- This document is composed using GitHub Flavored Markdown: https://github.github.com/gfm/
+- Urls less then 40 characters or so should be displayed inline so that the hostname and full path is visible (eg, see the link to the GFM spec above); longer urls should be presented as a hyperlink using [Markdown syntax](https://github.github.com/gfm/#links).
+- Maintainers: please make frequent, logical commits to facilitate the review process.
+- Those who are comfortable with git are encouraged to submit pull requests from a fork of this repository.
+- Others: your input is welcome! If possible, please use [GitHub Issues](https://github.com/assoc-path-informatics/interop/issues) to submit comments, additions. Otherwise please email one of the maintainers listed below.
+
+### Maintainers
+
+- Peter Gershkovich, Yale University
+- Noah Hoffman, University of Washington
+
+### Contributors
