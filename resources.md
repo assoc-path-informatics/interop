@@ -12,7 +12,7 @@ This resource serves as an entry point to topics related to standards and intero
 
 A number of efforts to provide automated or semi-automated approaches to ensuring consistent selection of LOINC identifiers across organizations and data sets have been described.
 
-- Parr, et al. [Automated mapping of laboratory tests to LOINC codes using noisy labels in a national electronic health record system database](https://pubmed.ncbi.nlm.nih.gov/30137378/). J Am Med Inform Assoc. 2018 Oct 1;25(10):1292-1300.
+- Parr, et al.[^parr_2018]
 
 #### Criticisms of LOINC
 
@@ -45,3 +45,7 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 - Noah Hoffman, University of Washington
 
 ### Contributors
+
+## References
+
+[^parr_2018]: Parr SK, et al. Automated mapping of laboratory tests to LOINC codes using noisy labels in a national electronic health record system database. J Am Med Inform Assoc. 2018 [PMID 30137378](https://pubmed.ncbi.nlm.nih.gov/30137378/)
