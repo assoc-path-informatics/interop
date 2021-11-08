@@ -17,7 +17,8 @@ A number of efforts to provide automated or semi-automated approaches to ensurin
 #### Criticisms of LOINC
 
 Important criticisms regarding the real-world utility of LOINC have been raised. Some notable examples:
-- [Stram, 2020](https://pubmed.ncbi.nlm.nih.gov/31603714/): inconsistencies in the selection of LOINC identifiers for coagulation assays and cardiac markers were unreliable in a large survey of laboratories.
+
+- Stram, et. al. (2020)[^stram-2020] described inconsistencies in the selection of LOINC identifiers for coagulation assays and cardiac markers were unreliable in a large survey of laboratories.
 
 ### SNOMED
 ### HL7 2.x
@@ -34,7 +35,7 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 
 - This document is composed using GitHub Flavored Markdown: https://github.github.com/gfm/
 - Urls less then 40 characters or so should be displayed inline so that the hostname and full path is visible (eg, see the link to the GFM spec above); longer urls should be presented as a hyperlink using [Markdown syntax](https://github.github.com/gfm/#links).
-- Please cite publications as a url to a PubMed record with (author, year) citations, eg ([Stram, 2020](https://pubmed.ncbi.nlm.nih.gov/31603714/)) - doing so will allow us to generate a bibliography by scraping pubmed IDs from urls in this document.
+- Please include pubmed citations as footnotes (see examples below). The python script [](bin/cite.py) can be used to format citations given a PMID. Citations may also be formatted manually.
 - Maintainers: please make frequent, logical commits to facilitate the review process.
 - Those who are comfortable with git are encouraged to submit pull requests from a fork of this repository.
 - Others: your input is welcome! If possible, please use [GitHub Issues](https://github.com/assoc-path-informatics/interop/issues) to submit comments, corrections, and additions. Otherwise please email one of the maintainers listed below.
@@ -49,3 +50,4 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 ## References
 
 [^parr_2018]: Parr SK, et al. Automated mapping of laboratory tests to LOINC codes using noisy labels in a national electronic health record system database. J Am Med Inform Assoc. 2018 [PMID 30137378](https://pubmed.ncbi.nlm.nih.gov/30137378/)
+[^stram-2020]: Stram M, et al. A Survey of LOINC Code Selection Practices Among Participants of the College of American Pathologists Coagulation (CGL) and Cardiac Markers (CRT) Proficiency Testing Programs. Arch Pathol Lab Med. 2020 [PMID 31603714](https://pubmed.ncbi.nlm.nih.gov/31603714/)
