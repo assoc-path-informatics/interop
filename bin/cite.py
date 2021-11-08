@@ -2,6 +2,14 @@
 
 """Print a citation in markdown format given a pubmed ID
 
+Example usage:
+
+  bin/cite.py 31603714
+
+Execute the script without installation:
+
+  curl -s https://raw.githubusercontent.com/assoc-path-informatics/interop/main/bin/cite.py | python3 - 31603714
+
 """
 
 import sys
