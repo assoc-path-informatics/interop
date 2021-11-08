@@ -18,7 +18,7 @@ A number of efforts to provide automated or semi-automated approaches to ensurin
 
 Important criticisms regarding the real-world utility of LOINC have been raised. Some notable examples:
 
-- Stram, et. al. (2020)[^stram-2020] described inconsistencies in the selection of LOINC identifiers for coagulation assays and cardiac markers were unreliable in a large survey of laboratories.
+- Stram, et. al. (2020)[^stram-2020] described inconsistencies in the selection of LOINC identifiers for coagulation assays and cardiac markers in a large survey of laboratories.
 
 ### SNOMED
 ### HL7 2.x
@@ -35,7 +35,7 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 
 - This document is composed using GitHub Flavored Markdown: https://github.github.com/gfm/
 - Urls less then 40 characters or so should be displayed inline so that the hostname and full path is visible (eg, see the link to the GFM spec above); longer urls should be presented as a hyperlink using [Markdown syntax](https://github.github.com/gfm/#links).
-- Please include pubmed citations as footnotes (see examples below). The python script [](bin/cite.py) can be used to format citations given a PMID. Citations may also be formatted manually.
+- Please include pubmed citations as footnotes (see examples below). The python script [bin/cite.py](bin/cite.py) can be used to format citations given a PMID. Citations may also be formatted manually.
 - Maintainers: please make frequent, logical commits to facilitate the review process.
 - Those who are comfortable with git are encouraged to submit pull requests from a fork of this repository.
 - Others: your input is welcome! If possible, please use [GitHub Issues](https://github.com/assoc-path-informatics/interop/issues) to submit comments, corrections, and additions. Otherwise please email one of the maintainers listed below.
