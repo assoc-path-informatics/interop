@@ -27,6 +27,8 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 
 ## Subspecialty topics
 ### Genetics/Genomics
+- FHIR guidance for genomics data: https://www.hl7.org/fhir/genomics.html
+- Dolin et al (2021)[^dolin-2021] describes a utility for converting variant data in VCF format into FHIR.
 - The Association for Molecuar Pathology (AMP) released a statement titled [AMP Position Statement on Variant Data Sharing](https://www.amp.org/AMP/assets/File/advocacy/AMP_Position_Variant_Data_Sharing_7_29_2021.pdf) in July 2021 that explores challenges and barriers to sharing and representing genetic variants.
 ## Legislation and mandates
 ## Vendors and products
@@ -51,5 +53,6 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 
 ## References
 
+[^dolin-2021]: Dolin RH, et al. vcf2fhir: a utility to convert VCF files into HL7 FHIR format for genomics-EHR integration. BMC Bioinformatics. 2021 [PMID 33653260](https://pubmed.ncbi.nlm.nih.gov/33653260/)
 [^parr_2018]: Parr SK, et al. Automated mapping of laboratory tests to LOINC codes using noisy labels in a national electronic health record system database. J Am Med Inform Assoc. 2018 [PMID 30137378](https://pubmed.ncbi.nlm.nih.gov/30137378/)
 [^stram-2020]: Stram M, et al. A Survey of LOINC Code Selection Practices Among Participants of the College of American Pathologists Coagulation (CGL) and Cardiac Markers (CRT) Proficiency Testing Programs. Arch Pathol Lab Med. 2020 [PMID 31603714](https://pubmed.ncbi.nlm.nih.gov/31603714/)
