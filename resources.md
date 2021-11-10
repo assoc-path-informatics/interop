@@ -2,7 +2,11 @@
 
 This resource serves as an entry point to topics related to standards and interoperability relevant to Pathology and Laboratory Medicine. It is not intended to be comprehensive. Instead, content here should highlight current and emerging topics likely to be of interest to the API community.
 
-## Technical standards
+## Code systems and terminologies
+
+### SNOMED
+- Cancer Content to be used in eCCs
+- Ongoing work to develop molecular concepts, eCC data field codes, and integration/coordination with LOINC for coverage of lab medicine concepts
 
 ### LOINC
 
@@ -20,13 +24,19 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 
 - Stram, et. al. (2020)[^stram-2020] described inconsistencies in the selection of LOINC identifiers for coagulation assays and cardiac markers in a large survey of laboratories.
 
-### SNOMED
-- Cancer Content to be used in eCCs
-- Ongoing work to develop molecular concepts, eCC data field codes, and integration/coordination with LOINC for coverage of lab medicine concepts
+### UCUM
 
-### HL7 2.x
+### AMA CPT
 
-#### Specification Name
+### RxNorm
+
+### ICD
+
+## Exchange standards, specifications, and profiles
+
+### HL7 Version 2.x
+
+#### Template: Specification Name
 - Overview/purpose
 - Standards Process Maturity
 - Implementation Maturity
@@ -61,19 +71,31 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 - Test tool availability
 - https://www.naaccr.org/pathology-laboratory-electronic-reporting/
 
+
+#### HL7 Version 2.5.1 Implementation Guide: S&I Framework Laboratory Test Compendium Framework (eDOS), Release 2 - US Realm
+
+#### HL7 Version 2 Implementation Guide: Clinical Genomics; Fully LOINC-Qualified Genetic Variation Model (US Realm)
+- LOINC safety problems discussion
+
+#### HL7 Version 2.5.1 Implementation Guide: Electronic Laboratory Reporting to Public Health, Release 2 (US Realm)
+
 ### FHIR
-- LIVD
+
+- FHIR R4
+- FHIR US Core Implementation Guide
 - Order Catalog IG, FHIR version of V2's eDOS
 - General FHIR R5 enhancements
 - Cancer Pathology Data Sharing
+- LIVD
 - IHE SDC on FHIR
 - Genomics Reporting IG
 
 ### DICOM
 - Working Group 26 https://www.dicomstandard.org/activity/wgs/wg-26
+- IHE DPIA discussion here too
 
 ### Integrating the Healthcare Enterprise (IHE) Pathology and Laboratory Medicine (PaLM)
-- Brief discussion of IHE interoperability profiles:
+- Brief discussion of IHE interoperability profiles and their purpose, description of most adopted and important ones
 - LAW
 - LCC
 - DPIA
@@ -95,7 +117,7 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 ## Legislation and mandates
 
 ### ONC
- - ISA
+ - ISA (not really a mandate but should be included somewhere)
  
  #### ONC Cures Act Final Rule:
  - Information Blocking
@@ -109,6 +131,8 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 ### CMS
  - MIPS/QPP/PIP as the mechanism by which CEHRT becomes required
  - Brief discussion of pathologist exemption in PIP
+
+### LIVD/SHIELD
 
 ## Vendors and products
 
