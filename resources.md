@@ -25,8 +25,10 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 ### FHIR
 ### DICOM
 
-## Organizations
-- ONC
+## Subspecialty topics
+### Genetics/Genomics
+- The Association for Molecuar Pathology (AMP) released a statement titled [AMP Position Statement on Variant Data Sharing](https://www.amp.org/AMP/assets/File/advocacy/AMP_Position_Variant_Data_Sharing_7_29_2021.pdf) in July 2021 that explores challenges and barriers to sharing and representing genetic variants.
+## Legislation and mandates
 ## Vendors and products
 
 ## Secure system and software development
