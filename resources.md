@@ -21,9 +21,71 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 - Stram, et. al. (2020)[^stram-2020] described inconsistencies in the selection of LOINC identifiers for coagulation assays and cardiac markers in a large survey of laboratories.
 
 ### SNOMED
+- Cancer Content to be used in eCCs
+- Ongoing work to develop molecular concepts, eCC data field codes, and integration/coordination with LOINC for coverage of lab medicine concepts
+
 ### HL7 2.x
+
+#### Specification Name
+- Overview/purpose
+- Standards Process Maturity
+- Implementation Maturity
+- Adoption Level
+- Federally required (yes/no, details)
+- Test tool availability
+
+#### HL7 Version 2.5.1 Implementation Guide: Laboratory Orders from EHR (LOI), Release 1, STU Release 3  - US Realm
+- Overview/purpose
+- Standards Process Maturity
+- Implementation Maturity
+- Adoption Level
+- Federally required (yes/no, details)
+- Test tool availability
+- https://www.hl7.org/implement/standards/product_brief.cfm?product_id=152
+
+#### HL7 Version 2.5.1 Implementation Guide: Laboratory Results Interface, Release 1 STU Release 3 - US Realm
+- This guide provides guidance on how to communicate laboratory results in general from a (reference) Laboratory’s LIS to a system interested in lab results, e.g., EHR, Public Health, other Laboratory.  It covers general lab results, as well as specifications focused on microbiology, newborn dried bloodspot screening, and clinical genomics.
+- Standards Process Maturity
+- Implementation Maturity
+- Adoption Level
+- Federally required (yes/no, details)
+- Test tool availability
+- https://www.hl7.org/implement/standards/product_brief.cfm?product_id=279
+
+#### North American Association of Central Cancer Registries (NAACCR) Standards for Cancer Registries Volume V: Pathology Laboratory Electronic Reporting, Version 5.0
+- The goal of this document is to define data standards and guidelines to transmit cancer information from laboratories to cancer registries. It also provides guidelines for the implementation of these standards by pathology laboratories, vendors, and other groups. 
+- Standards Process Maturity
+- Implementation Maturity
+- Adoption Level
+- Federally required (yes/no, details)
+- Test tool availability
+- https://www.naaccr.org/pathology-laboratory-electronic-reporting/
+
 ### FHIR
+- LIVD
+- Order Catalog IG, FHIR version of V2's eDOS
+- General FHIR R5 enhancements
+- Cancer Pathology Data Sharing
+- IHE SDC on FHIR
+- Genomics Reporting IG
+
 ### DICOM
+- Working Group 26 https://www.dicomstandard.org/activity/wgs/wg-26
+
+### Integrating the Healthcare Enterprise (IHE) Pathology and Laboratory Medicine (PaLM)
+- Brief discussion of IHE interoperability profiles:
+- LAW
+- LCC
+- DPIA
+- LBL
+- LTW
+- LCSD
+- LDA
+- LPOCT
+
+### CLSI
+- AUTO15
+- AUTO16
 
 ## Subspecialty topics
 ### Genetics/Genomics
@@ -31,6 +93,23 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 - Dolin et al (2021)[^dolin-2021] describes a utility for converting variant data in VCF format into FHIR.
 - The Association for Molecuar Pathology (AMP) released a statement titled [AMP Position Statement on Variant Data Sharing](https://www.amp.org/AMP/assets/File/advocacy/AMP_Position_Variant_Data_Sharing_7_29_2021.pdf) in July 2021 that explores challenges and barriers to sharing and representing genetic variants.
 ## Legislation and mandates
+
+### ONC
+ - ISA
+ 
+ #### ONC Cures Act Final Rule:
+ - Information Blocking
+ - Certification
+ - APIs
+ - USCDI/USCDI+
+ - SVAP
+ - Enforcement discretion dates and timeframes
+ - Text: https://www.federalregister.gov/documents/2020/05/01/2020-07419/21st-century-cures-act-interoperability-information-blocking-and-the-onc-health-it-certification
+
+### CMS
+ - MIPS/QPP/PIP as the mechanism by which CEHRT becomes required
+ - Brief discussion of pathologist exemption in PIP
+
 ## Vendors and products
 
 ## Secure system and software development
@@ -50,6 +129,8 @@ Important criticisms regarding the real-world utility of LOINC have been raised.
 - Noah Hoffman, University of Washington
 
 ### Contributors
+
+- Alex Mays, Massachusetts General Hospital
 
 ## References
 
