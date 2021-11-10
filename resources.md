@@ -12,7 +12,7 @@ This resource serves as an entry point to topics related to standards and intero
 
 A number of efforts to provide automated or semi-automated approaches to ensuring consistent selection of LOINC identifiers across organizations and data sets have been described.
 
-- Parr, et al.[^parr_2018]
+- Parr, et al. (2018) [^parr_2018] describes "an automated machine learning pipeline that leverages noisy labels to map laboratory data to LOINC codes" using lab results in the VA data warehouse.
 
 #### Criticisms of LOINC
 
