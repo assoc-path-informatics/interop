@@ -6,9 +6,9 @@ from pelican.readers import MarkdownReader
 
 config = DEFAULT_CONFIG.copy()
 
-AUTHOR = 'AUTHOR'
-SITENAME = 'SITENAME'
-SITEURL = 'https://nhoffman.github.io/pelicandemo'
+AUTHOR = 'Association for Pathology Informatics'
+SITENAME = 'API Interoperability Resources'
+SITEURL = 'https://assoc-path-informatics.github.io/interop'
 
 PATH = 'content'
 
