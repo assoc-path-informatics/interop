@@ -1,12 +1,12 @@
-# interop
+# Topics related to Laboratory data interoperability.
 
-Topics related to Laboratory data interoperability
+Source code for <https://assoc-path-informatics.github.io/interop>, a
+website maintained by the [Association for Pathology Informatics](https://pathologyinformatics.org).
 
 ## Adding entries
 
-Entries are created by adding Markdown files to ``/content``. The
-[Pelican documentation
-](https://docs.getpelican.com/en/latest/content.html#file-metadata)
+Entries are created by adding Markdown files to the [/content](/content) directory. The
+[Pelican documentation](https://docs.getpelican.com/en/latest/content.html#file-metadata)
 describes how to specify metadata. For example:
 
 ```
@@ -18,7 +18,8 @@ Tags: pelican, publishing
 Authors: Alexis Metaireau, Conan Doyle
 ```
 
-Please include Title, Date, Category, and Tags; others are optional.
+Please include Title, Date, and Tags; others are optional (posts will
+be added the "Misc" category be default).
 
 Categories may be *one* of
 
@@ -38,12 +39,18 @@ A post may have more than one tag. Choose from the following:
 
 The remainder of the post can contain arbitrary Markdown-formatted content.
 
+## Website deployment
+
+This site is automatically rebuilt and deployed whenever a change is
+pushed to the ``main`` branch. The status of each build action can be
+viewed using the GutHub Actions console.
+
 ## Local development
 
 A local development environment can be created as follows. First,
-clone this repository and enter repo directory. The Elegant theme is
-provided as a git submodule; this must be initiated the first time the
-repo is cloned.
+clone this repository and enter the ``interop`` directory. The Elegant
+theme is provided as a git submodule; this must be initiated the first
+time the repo is cloned.
 
 ```
 git submodule init
@@ -58,3 +65,23 @@ source py3-env/bin/activate
 pip install -U pip wheel
 pip install -r requirements.txt
 ```
+
+Now the website may be generated locally. By default, internal urls
+contain the full path to the site hosted on GitHub pages, but it is
+possible to use relative urls so that the site can be navigated
+locally.
+
+```
+make html PELICANOPTS='-e RELATIVE_URLS=True'
+```
+
+View the website by launching a local webserver and visiting <https://localhost:8000>:
+
+```
+pelican --listen
+```
+
+If you are making many changes, it may be convenient to launch the
+server in one shell process as above and execute ``bin/watch.sh`` in
+another: this will cause the site to be rebuilt whenever a file is
+changed.
