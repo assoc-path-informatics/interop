@@ -44,8 +44,8 @@ THEME = "./elegant"
 THEME_TEMPLATES_OVERRIDES = ['./content/templates']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search', '404'))
 
-# prevent Pelican from reading files in the following directories
-IGNORE_FILES = ['.#*', 'includes', 'templates']
+# prevent Pelican from reading files matching the following patterns
+IGNORE_FILES = ['.#*', 'includes', 'templates', 'README.md']
 
 # render markdown contents from files in /content/includes and make
 # accesible from INCLUDES variable in html templates
