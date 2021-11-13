@@ -3,6 +3,8 @@
 Source code for <https://assoc-path-informatics.github.io/interop>, a
 website maintained by the [Association for Pathology Informatics](https://pathologyinformatics.org).
 
+[![Pelican site CI](https://github.com/assoc-path-informatics/interop/actions/workflows/pelican.yml/badge.svg)](https://github.com/assoc-path-informatics/interop/actions/workflows/pelican.yml)
+
 ## Adding entries
 
 Entries are created by adding Markdown files to the [/content](/content) directory. The
