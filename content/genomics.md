@@ -3,7 +3,7 @@ Date: 2021-11-12
 Category:
 Tags: FHIR
 
-- FHIR guidance for genomics data: [https://www.hl7.org/fhir/genomics.html](https://www.hl7.org/fhir/genomics.html)
+- FHIR guidance for genomics data: <https://www.hl7.org/fhir/genomics.html>
 - Dolin et al (2021)[^dolin-2021] describes a utility for converting variant data in VCF format into FHIR.
 - The Association for Molecuar Pathology (AMP) released a statement titled [AMP Position Statement on Variant Data Sharing](https://www.amp.org/AMP/assets/File/advocacy/AMP_Position_Variant_Data_Sharing_7_29_2021.pdf) in July 2021 that explores challenges and barriers to sharing and representing genetic variants.
 
