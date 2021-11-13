@@ -1,7 +1,9 @@
 #!/bin/bash
 
-remote_repo="git@github.com:nhoffman/pelicandemo.git"
-remote_branch=gh-pages
+# Manually publish to gh-pages.
+
+remote_repo="git@github.com:assoc-path-informatics/interop.git"
+remote_branch="gh-pages"
 
 echo 'Publishing to GitHub Pages 📤 '
 pushd output
@@ -17,7 +19,7 @@ git checkout $remote_branch || git checkout --orphan $remote_branch
 git add .
 
 echo -n 'Files to Commit:' && ls -l | wc -l
-git commit -m "[ci skip] Automated deployment to GitHub Pages on $(date +%s%3N)"
+git commit -m "[ci skip] Automated deployment to GitHub Pages on $(date)"
 git push deploy $remote_branch --force
 rm -fr .git
 popd
