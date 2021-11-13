@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# executes 'make html' whenever a file is changed
+# Executes 'make html' whenever a file is changed. Requires
+# fswatch. Note that the virtual environment providing Pelican must be
+# active for the build to be successful.
 
 # fswatch
 # -e '.#': ignore temporary files written by emacs
