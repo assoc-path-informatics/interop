@@ -43,7 +43,8 @@ The remainder of the post can contain arbitrary Markdown-formatted content.
 
 This site is automatically rebuilt and deployed whenever a change is
 pushed to the ``main`` branch. The status of each build action can be
-viewed using the GutHub Actions console.
+viewed using the
+[GitHub Actions console](https://github.com/assoc-path-informatics/interop/actions).
 
 ## Local development
 
