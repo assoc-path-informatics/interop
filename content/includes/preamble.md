@@ -1,5 +1,3 @@
-# preamble
+# Resources for technical standards, systems development, and interoperability
 
-Demo site built from source code here: https://github.com/nhoffman/pelicandemo
-
-This content is included from ``content/includes/premable.md``
+This resource serves as an entry point to topics related to standards and interoperability relevant to Pathology and Laboratory Medicine. It is not intended to be comprehensive. Instead, content here should highlight current and emerging topics likely to be of interest to the API community.
