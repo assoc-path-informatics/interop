@@ -7,8 +7,15 @@ website maintained by the [Association for Pathology Informatics](https://pathol
 
 ## Adding entries
 
-Entries are created by adding Markdown files to the [/content](/content) directory. The
-[Pelican documentation](https://docs.getpelican.com/en/latest/content.html#file-metadata)
+Entries are created by adding Markdown files to the
+[/content](/content) directory. Note that users with permission to
+commit to this repository can edit or add pages directly from GitHub
+using the web editor. See the "Add file" option at the top right of
+the file listing or view a file and choose the pencil
+option. Additional instructions and guidelines can be found
+[here](https://assoc-path-informatics.github.io/interop/pages/about.html).
+
+The [Pelican documentation](https://docs.getpelican.com/en/latest/content.html#file-metadata)
 describes how to specify metadata. For example:
 
 ```
