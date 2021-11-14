@@ -13,7 +13,7 @@ Technical Standards Committee.
 ## style guide
 
 - This document is composed in Markdown format as implemented by [Python-Markdown](https://python-markdown.github.io).
-- Urls less then 40 characters or so should be displayed inline so that the hostname and full path is visible (eg, see the link to the GFM spec above); longer urls should be presented as a hyperlink using [Markdown syntax](https://github.github.com/gfm/#links).
+- Urls less than 40 characters or so should be displayed inline so that the hostname and full path is visible (eg, formatted with angle braces like ``<https://example.com>``); longer urls should be presented as a hyperlink using [Markdown syntax](https://github.github.com/gfm/#links), eg ``[example link](https://example.com)``.
 - Please include pubmed citations as footnotes (see examples below). The python script [bin/cite.py](https://github.com/assoc-path-informatics/interop/blob/main/bin/cite.py) can be used to format citations given a PMID. Citations may also be formatted manually.
 
 ## software

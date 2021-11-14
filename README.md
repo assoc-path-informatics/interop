@@ -91,7 +91,6 @@ View the website by launching a local webserver and visiting <https://localhost:
 pelican --listen
 ```
 
-If you are making many changes, it may be convenient to launch the
-server in one shell process as above and execute ``bin/watch.sh`` in
-another: this will cause the site to be rebuilt whenever a file is
-changed.
+If you are making many changes, it may be convenient to use
+``bin/watch.sh`` to both launch the Pelican server and rebuilt the
+site whenever a file is changed.

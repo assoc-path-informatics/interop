@@ -14,5 +14,11 @@
 # -n 1: invoke 'make html' with each line taken from stdin
 # -I {}: effectively prevets stdin from being included as argument
 
+pelican --listen &
+listener="$!"
+
 fswatch -e output -e '.#' -e .git -l 0.5 -o . | \
     xargs -n 1 -I {} make html PELICANOPTS='-e RELATIVE_URLS=True'
+
+echo "killing pelican server (pid $listener)"
+kill "$listener"
