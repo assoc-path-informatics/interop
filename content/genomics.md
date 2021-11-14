@@ -3,10 +3,11 @@ Date: 2021-11-12
 Category:
 Tags: FHIR, ONC, GACS
 
-- FHIR guidance for genomics data: <https://www.hl7.org/fhir/genomics.html>
-- Dolin et al (2021)[^dolin-2021] describes a utility for converting variant data in VCF format into FHIR.
-- Swaminathan R, et al.[^swaminathan-2016] compares the capabilities of the SMART Genomics API,  Google Genomics, and the 23andMe API.
-- The Association for Molecuar Pathology (AMP) released a statement titled [AMP Position Statement on Variant Data Sharing](https://www.amp.org/AMP/assets/File/advocacy/AMP_Position_Variant_Data_Sharing_7_29_2021.pdf) in July 2021 that explores challenges and barriers to sharing and representing genetic variants.
+# SMART on FHIR Genomics and the HL7 Clinical Genomics Work Group
+
+- [Work Group Home](https://www.hl7.org/Special/committees/clingenomics/overview.cfm)
+- The FHIR guidance for genomics data (<https://www.hl7.org/fhir/genomics.html>) is a product of this work group.
+- A description of the SMART on FHIR Genomics prototype is provided in Alterovitz (2015)[^alterovitz-2015]. This highly cited reference is a good starting point to identify [subsequent publications](https://pubmed.ncbi.nlm.nih.gov/?sort=date&linkname=pubmed_pubmed_citedin&from_uid=26198304) on similar topics.
 
 # ONC "Sync for genes"
 
@@ -29,6 +30,16 @@ The Phase 3 report identifies a number of challenges and areas requiring further
 
 > ... detailed data elements such as precise definitions of genetic variants, the genomic regions covered by a given assay, the expression of novel results unique to a patient, and the actual genomic sequence were difficult to represent. As the demonstration projects exhibited, to support these data types, the FHIR specification needs to be further enhanced.
 
+This report contains many useful references and a glossary of terms.
+
+# Miscellany
+
+- Dolin et al (2021)[^dolin-2021] describes a utility for converting variant data in VCF format into FHIR.
+- Swaminathan R, et al.[^swaminathan-2016] compares the capabilities of the SMART Genomics API,  Google Genomics, and the 23andMe API.
+- The Association for Molecuar Pathology (AMP) released a statement titled [AMP Position Statement on Variant Data Sharing](https://www.amp.org/AMP/assets/File/advocacy/AMP_Position_Variant_Data_Sharing_7_29_2021.pdf) in July 2021 that explores challenges and barriers to sharing and representing genetic variants.
+
+
+[^alterovitz-2015]: Alterovitz G, et al. SMART on FHIR Genomics: facilitating standardized clinico-genomic apps. J Am Med Inform Assoc. 2015 [PMID 26198304](https://pubmed.ncbi.nlm.nih.gov/26198304/)
 [^dolin-2021]: Dolin RH, et al. vcf2fhir: a utility to convert VCF files into HL7 FHIR format for genomics-EHR integration. BMC Bioinformatics. 2021 [PMID 33653260](https://pubmed.ncbi.nlm.nih.gov/33653260/)
 [^swaminathan-2016]: Swaminathan R, et al. A Review on Genomics APIs. Comput Struct Biotechnol J. 2016 [PMID 26702340](https://pubmed.ncbi.nlm.nih.gov/26702340/)
 
