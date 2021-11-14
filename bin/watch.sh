@@ -6,7 +6,7 @@
 
 # fswatch
 # -e '.#': ignore temporary files written by emacs
-# -l 0.5: set latemcy to 0.5 seconds
+# -l 0.5: set latency to 0.5 seconds
 # -0: delimiter
 # -o: print a count of events instead of listing modified files
 
