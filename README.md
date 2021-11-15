@@ -57,7 +57,11 @@ viewed using the
 
 ## Local development
 
-A local development environment can be created as follows. First,
+It is not necessary to create a local development environment: content
+may be added by simply editing files in ``/content`` and pushing the
+changes. However, it may be useful to preview changes locally.
+
+If desired, local development environment can be created as follows. First,
 clone this repository and enter the ``interop`` directory. The Elegant
 theme is provided as a git submodule; this must be initiated the first
 time the repo is cloned.
