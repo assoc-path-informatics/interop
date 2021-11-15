@@ -61,7 +61,7 @@ It is not necessary to create a local development environment: content
 may be added by simply editing files in ``/content`` and pushing the
 changes. However, it may be useful to preview changes locally.
 
-If desired, local development environment can be created as follows. First,
+If desired, a local development environment can be created as follows. First,
 clone this repository and enter the ``interop`` directory. The Elegant
 theme is provided as a git submodule; this must be initiated the first
 time the repo is cloned.
@@ -95,6 +95,6 @@ View the website by launching a local webserver and visiting <https://localhost:
 pelican --listen
 ```
 
-If you are making many changes, it may be convenient to use
-``bin/watch.sh`` to both launch the Pelican server and rebuilt the
+If you are making many changes, it is convenient to use
+``bin/watch.sh`` to both launch the Pelican server and rebuild the
 site whenever a file is changed.
