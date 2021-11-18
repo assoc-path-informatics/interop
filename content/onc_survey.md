@@ -1,6 +1,6 @@
 Title: Response to ONC Survey on 2030 Interoperability Goals
 Slug: onc-survey
-Date: 2021-11-12
+Date: 2021-06-08
 Category: Policy
 Tags: ONC
 
