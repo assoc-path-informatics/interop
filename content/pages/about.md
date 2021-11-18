@@ -9,7 +9,7 @@ Technical Standards Committee.
 - Source code for this site is hosted on [GitHub](https://github.com/assoc-path-informatics/interop/tree/main/content).
 - See the repository for details, but in a nutshell: each page corresponds to a Markdown file in the [content](https://github.com/assoc-path-informatics/interop/tree/main/content) directory of the repository. The site is rebuilt using a GitHub action each time a change is pushed to the ``main`` branch.
 - Those who are comfortable with git are encouraged to submit pull requests from a fork of this repository.
-- Others: your input is welcome! If possible, please use [GitHub Issues](https://github.com/assoc-path-informatics/interop/issues) to submit comments, corrections, and additions (requires a free GitHub account). Otherwise please email one of the authors listed on the site or the API mailing list.
+- Others: your input is welcome! If possible, please use [GitHub Issues](https://github.com/assoc-path-informatics/interop/issues) to submit ideas, comments, corrections, and additions (requires a free GitHub account). We will also use GitHub issues to discuss topics and develop content. Otherwise please email one of the authors listed on the site or the API mailing list.
 - Regular contributors can be granted access to make changes to the repository directory.
 
 # style guide
@@ -23,6 +23,7 @@ Technical Standards Committee.
 ```
 [example link](https://example.com)
 ```
+- When updating an existing page, please indicate the date of modification in the header by adding ``Modified: YYYY-MM-DD``.
 - Please include pubmed citations as footnotes (see examples in existing articles). The python script [bin/cite.py](https://github.com/assoc-path-informatics/interop/blob/main/bin/cite.py) can be used to format citations given a PMID. Citations may also be formatted manually.
 
 # software
