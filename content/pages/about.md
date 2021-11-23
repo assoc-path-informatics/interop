@@ -4,6 +4,14 @@ This site is maintained by the [Association for Pathology
 Informatics](https://pathologyinformatics.org) as a project of the
 Technical Standards Committee.
 
+# purpose
+
+The API membership includes domain experts, users, and students of the standards and formats that enable interoperability between systems, and this project is intended to provide a convenient place to aggregate and summarize information relevant in the domain of laboratory and pathology informatics. A wealth of information exists online and in the literature, but it can be challenging to identify the most relevant and current resources. Contributions to this site can include any of the following:
+
+- Links to online resources.
+- Citations of notable reviews, studies, or opinion pieces in the literature.
+- Brief summaries of individual topics.
+
 # contributing
 
 - Source code for this site is hosted on [GitHub](https://github.com/assoc-path-informatics/interop/tree/main/content).
