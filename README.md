@@ -20,6 +20,7 @@ describes how to specify metadata. For example:
 
 ```
 Title: My super title
+Slug: my-super-post
 Date: 2010-12-03
 Modified: 2010-12-05
 Category: Python
@@ -29,6 +30,9 @@ Authors: Alexis Metaireau, Conan Doyle
 
 Please include Title, Date, and Tags; others are optional (posts will
 be added the "Misc" category be default).
+
+By default urls are constructed from page titles, and it is useful to
+include "Slug" for entries with long titles.
 
 Categories may be *one* of
 
