@@ -14,3 +14,7 @@ This site is maintained by the [Association for Pathology
 Informatics](https://pathologyinformatics.org) as a project of the
 Technical Standards Committee.
 
+Please also see the [issues](https://github.com/assoc-path-informatics/interop/issues)
+associated with the GitHub repository for this site to view
+discussions of individual topics or to submit questions, ideas, or
+comments.

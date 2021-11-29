@@ -1,4 +1,5 @@
-Title: Genomics
+Title: Standards for Genomics: ONC Sync for Genes and FHIR
+Slug: sync-for-genes
 Date: 2021-11-12
 Category:
 Tags: FHIR, ONC, GACS

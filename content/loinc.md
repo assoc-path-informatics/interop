@@ -1,4 +1,5 @@
-Title: LOINC
+Title: LOINC implementation challenges
+Slug: loinc-challenges
 Date: 2021-11-12
 Category: Vocabularies
 Tags: LOINC
