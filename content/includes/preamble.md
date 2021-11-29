@@ -1,5 +1,12 @@
 # Resources for technical standards, systems development, and interoperability
 
+The Technical Standards and Interoperability resources are created to express, discuss, and illustrate pressing issues of information exchange between clinical systems used in Pathology.
+Digitized slides, AI algorithms, Data Exchange Interfaces, Dashboards and other types of visualization, workflow management systems in general greatly speed up the processing of data.
+Converting data into information and assembling it at decision points to serve purposeful ends remains a challenge.
+
+The GitHub project, in addition, is a platform for adding versioned content showing the transformation of our thoughts and ideas supported (eventually) by the functioning code examples.
+
+
 This resource serves as an entry point to topics related to standards
 and interoperability relevant to Pathology and Laboratory Medicine. It
 is not intended to be comprehensive. Instead, content here will
