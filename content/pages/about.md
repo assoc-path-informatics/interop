@@ -6,6 +6,10 @@ Technical Standards Committee.
 
 # purpose
 
+The Technical Standards and Interoperability resources are created to express, discuss, and illustrate pressing issues of information exchange between clinical systems used in Pathology.
+Digitized slides, AI algorithms, Data Exchange Interfaces, Dashboards and other types of visualization, workflow management systems in general greatly speed up the processing of data.
+Converting data into information and assembling it at decision points to serve purposeful ends remains a challenge.
+
 The API membership includes domain experts, users, and students of the standards and formats that enable interoperability between systems, and this project is intended to provide a convenient place to aggregate and summarize information relevant in the domain of laboratory and pathology informatics. A wealth of information exists online and in the literature, but it can be challenging to identify the most relevant and current resources. Contributions to this site can include any of the following:
 
 - Links to online resources.
