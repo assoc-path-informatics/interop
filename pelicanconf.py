@@ -43,6 +43,7 @@ THEME = "./elegant"
 # place files replacing theme templates in ./content/templates
 THEME_TEMPLATES_OVERRIDES = ['./content/templates']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search', '404'))
+STATIC_PATHS = ['images']
 
 # prevent Pelican from reading files matching the following patterns
 IGNORE_FILES = ['.#*', 'includes', 'templates', 'README.md']
