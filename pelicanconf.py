@@ -24,7 +24,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('API', 'https://www.pathologyinformatics.org/'),)
+LINKS = (
+    ('categories', '/categories.html'),
+    ('tags', '/tags.html'),
+    ('API home', 'https://www.pathologyinformatics.org/'),
+    ('github issues', 'https://github.com/assoc-path-informatics/interop/issues'),
+)
+
+GITHUB_CORNER_URL = 'https://github.com/assoc-path-informatics/interop'
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -38,21 +45,16 @@ DEFAULT_PAGINATION = 10
 # THEME = "./elegant"
 THEME = "./Flex"
 THEME_COLOR = 'light'
-SITELOGO = '/images/API-250px-300dpi.jpg'
 
 # # place files replacing theme templates in ./content/templates
 THEME_TEMPLATES_OVERRIDES = ['./content/templates']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
-STATIC_PATHS = ['images']
-CUSTOM_CSS = 'custom.css'
+STATIC_PATHS = ['images', 'css/custom.css']
 
-STATIC_PATHS = ["css/custom.css"]
+SITELOGO = '/images/API-250px-300dpi.jpg'
+CUSTOM_CSS = '/static/custom.css'
 
-EXTRA_PATH_METADATA = {
-    "css/custom.css": {"path": "static/custom.css"},
-}
-
-CUSTOM_CSS = "static/custom.css"
+DISPLAY_PAGES_ON_MENU = True
 
 # # prevent Pelican from reading files matching the following patterns
 IGNORE_FILES = ['.#*', 'includes', 'templates', 'README.md']
