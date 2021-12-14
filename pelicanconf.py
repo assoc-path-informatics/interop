@@ -24,10 +24,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('API', 'https://www.pathologyinformatics.org/'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -38,14 +35,26 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-THEME = "./elegant"
+# THEME = "./elegant"
+THEME = "./Flex"
+THEME_COLOR = 'light'
+SITELOGO = '/images/API-250px-300dpi.jpg'
 
-# place files replacing theme templates in ./content/templates
+# # place files replacing theme templates in ./content/templates
 THEME_TEMPLATES_OVERRIDES = ['./content/templates']
-DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search', '404'))
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
 STATIC_PATHS = ['images']
+CUSTOM_CSS = 'custom.css'
 
-# prevent Pelican from reading files matching the following patterns
+STATIC_PATHS = ["css/custom.css"]
+
+EXTRA_PATH_METADATA = {
+    "css/custom.css": {"path": "static/custom.css"},
+}
+
+CUSTOM_CSS = "static/custom.css"
+
+# # prevent Pelican from reading files matching the following patterns
 IGNORE_FILES = ['.#*', 'includes', 'templates', 'README.md']
 
 # render markdown contents from files in /content/includes and make
@@ -54,3 +63,4 @@ INCLUDES = {}
 for fname in glob.glob('./content/includes/*.md'):
     pth = Path(fname)
     INCLUDES[pth.stem], _ = MarkdownReader(config).read(fname)
+

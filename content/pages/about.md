@@ -4,8 +4,6 @@ This site is maintained by the [Association for Pathology
 Informatics](https://pathologyinformatics.org) as a project of the
 Technical Standards Committee.
 
-![API logo]({filename}/images/API-250px-300dpi.jpg)
-
 # purpose
 
 The Technical Standards and Interoperability resources are created to express, discuss, and illustrate pressing issues of information exchange between clinical systems used in Pathology.
