@@ -52,6 +52,7 @@ DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
 STATIC_PATHS = ['images', 'css/custom.css']
 
 SITELOGO = '/images/API-250px-300dpi.jpg'
+FAVICON = '/images/favicon.ico'
 CUSTOM_CSS = '/static/custom.css'
 
 DISPLAY_PAGES_ON_MENU = True
