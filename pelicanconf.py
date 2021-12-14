@@ -51,9 +51,9 @@ THEME_TEMPLATES_OVERRIDES = ['./content/templates']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
 STATIC_PATHS = ['images', 'css/custom.css']
 
-SITELOGO = '/images/API-250px-300dpi.jpg'
-FAVICON = '/images/favicon.ico'
-CUSTOM_CSS = '/static/custom.css'
+SITELOGO = SITEURL + '/images/API-250px-300dpi.jpg'
+FAVICON = SITEURL + '/images/favicon.ico'
+CUSTOM_CSS = SIREURL + '/static/custom.css'
 
 DISPLAY_PAGES_ON_MENU = True
 
