@@ -53,7 +53,7 @@ STATIC_PATHS = ['images', 'css/custom.css']
 
 SITELOGO = SITEURL + '/images/API-250px-300dpi.jpg'
 FAVICON = SITEURL + '/images/favicon.ico'
-CUSTOM_CSS = SITEURL + '/css/custom.css'
+CUSTOM_CSS = '/css/custom.css'
 
 DISPLAY_PAGES_ON_MENU = True
 
