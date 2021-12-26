@@ -47,5 +47,5 @@ Contributions to this site can include any of the following:
 # software
 
 This site uses [Pelican](https://blog.getpelican.com) with the
-[Elegant](https://github.com/Pelican-Elegant/elegant) theme and is
+[Flex](https://github.com/alexandrevicenzi/Flex) theme and is
 hosted on GitHub pages.
