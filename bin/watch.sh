@@ -18,7 +18,7 @@ pelican --listen &
 listener="$!"
 
 fswatch -e output -e '.#' -e .git -l 0.5 -o . | \
-    xargs -n 1 -I {} make html PELICANOPTS='-e RELATIVE_URLS=True'
+    xargs -n 1 -I {} make html PELICANOPTS='-e RELATIVE_URLS=true'
 
 echo "killing pelican server (pid $listener)"
 kill "$listener"
