@@ -66,7 +66,7 @@ DISPLAY_PAGES_ON_MENU = True
 DISABLE_URL_HASH = True
 
 # # prevent Pelican from reading files matching the following patterns
-IGNORE_FILES = ['.#*', 'includes', 'templates', 'README.md']
+IGNORE_FILES = ['.#*', 'includes', 'templates', 'README.md', '_*']
 
 # render markdown contents from files in /content/includes and make
 # accesible from INCLUDES variable in html templates

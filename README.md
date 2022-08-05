@@ -31,6 +31,9 @@ Authors: Alexis Metaireau, Conan Doyle
 Please include Title, Date, and Tags; others are optional (posts will
 be added the "Misc" category be default).
 
+Posts with ``Status: draft`` in the file metadata are not published (you can use
+use this as a mechanism for hiding in-progress work).
+
 By default urls are constructed from page titles, and it is useful to
 include "Slug" for entries with long titles.
 
